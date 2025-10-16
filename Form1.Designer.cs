@@ -29,8 +29,10 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -38,11 +40,9 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
+            this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -55,17 +55,6 @@
             this.button1.Text = "Obter Inormações";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // webView21
-            // 
-            this.webView21.AllowExternalDrop = true;
-            this.webView21.CreationProperties = null;
-            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.webView21.Location = new System.Drawing.Point(12, 163);
-            this.webView21.Name = "webView21";
-            this.webView21.Size = new System.Drawing.Size(1880, 866);
-            this.webView21.TabIndex = 1;
-            this.webView21.ZoomFactor = 1D;
             // 
             // panel1
             // 
@@ -87,6 +76,39 @@
             this.panel1.Size = new System.Drawing.Size(252, 354);
             this.panel1.TabIndex = 2;
             this.panel1.Visible = false;
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.button10.Location = new System.Drawing.Point(2, 179);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(245, 30);
+            this.button10.TabIndex = 9;
+            this.button10.Text = "Mapa de Setores";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.button9.Location = new System.Drawing.Point(2, 109);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(245, 30);
+            this.button9.TabIndex = 8;
+            this.button9.Text = "Hidrografia";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.button8.Location = new System.Drawing.Point(2, 39);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(245, 30);
+            this.button8.TabIndex = 7;
+            this.button8.Text = "Areas de Interesse";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -164,35 +186,16 @@
             this.label1.Text = "De qual tabela deseja carregar o mapa";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button8
+            // webView21
             // 
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.button8.Location = new System.Drawing.Point(2, 39);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(245, 30);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Areas de Interesse";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.button9.Location = new System.Drawing.Point(2, 109);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(245, 30);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Hidrografia";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.button10.Location = new System.Drawing.Point(2, 179);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(245, 30);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "Mapa de Setores";
-            this.button10.UseVisualStyleBackColor = true;
+            this.webView21.AllowExternalDrop = true;
+            this.webView21.CreationProperties = null;
+            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
+            this.webView21.Location = new System.Drawing.Point(12, 87);
+            this.webView21.Name = "webView21";
+            this.webView21.Size = new System.Drawing.Size(1880, 866);
+            this.webView21.TabIndex = 3;
+            this.webView21.ZoomFactor = 1D;
             // 
             // Form1
             // 
@@ -201,13 +204,13 @@
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.webView21);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.webView21);
             this.Name = "Form1";
             this.Text = "Plot de Coordenadas Maps";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -215,7 +218,6 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private Microsoft.Web.WebView2.WinForms.WebView2 webView21;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
@@ -227,6 +229,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button9;
+        private Microsoft.Web.WebView2.WinForms.WebView2 webView21;
     }
 }
 

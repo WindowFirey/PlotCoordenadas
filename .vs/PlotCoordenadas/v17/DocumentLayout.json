@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Trabalhos\\PlotCoordenadas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E6FD8DA-1E6F-4CED-B920-D7F3649EAB48}|PlotCoordenadas.csproj|C:\\Trabalhos\\PlotCoordenadas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E6FD8DA-1E6F-4CED-B920-D7F3649EAB48}|PlotCoordenadas.csproj|c:\\trabalhos\\plotcoordenadas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E6FD8DA-1E6F-4CED-B920-D7F3649EAB48}|PlotCoordenadas.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E6FD8DA-1E6F-4CED-B920-D7F3649EAB48}|PlotCoordenadas.csproj|c:\\trabalhos\\plotcoordenadas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1E6FD8DA-1E6F-4CED-B920-D7F3649EAB48}|PlotCoordenadas.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,22 +40,10 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Trabalhos\\PlotCoordenadas\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwE8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T12:48:18.39Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Trabalhos\\PlotCoordenadas\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Trabalhos\\PlotCoordenadas\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T12:30:16.44Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
