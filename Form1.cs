@@ -17,7 +17,7 @@ namespace PlotCoordenadas
 {
     public partial class Form1 : Form
     {
-        private const string GOOGLE_MAPS_API_KEY = "AIzaSyBsZzIKvEatNuT-uPjIPp_-eptj_16AvcE";
+        private const string GOOGLE_MAPS_API_KEY = "";
 
         string connectionString;
         List<List<double>> coordenadas = new List<List<double>>();
